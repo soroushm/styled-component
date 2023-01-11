@@ -3,7 +3,7 @@ import { Box } from './Box';
 
 
 export const ShadowBox = (props) => (
-  <Box color="#ff0000" background="#cecece" boxShadow="2px 2px #333" {...props}>
-    Content
+  <Box background="#cecece" boxShadow="0px 2px #333" {...props}>
+      {props.children}
   </Box>
 );

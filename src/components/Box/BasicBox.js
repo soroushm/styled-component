@@ -11,7 +11,7 @@ import {
   textAlign,
 } from 'styled-system';
 
-const Box = styled.div`
+const BasicBox = styled.div`
   ${background}
   ${border}
   ${color}
@@ -23,6 +23,6 @@ const Box = styled.div`
   ${textAlign}
 `;
 
-Box.displayName = 'Box';
+BasicBox.displayName = 'Box';
 
-export default Box;
+export default BasicBox;
